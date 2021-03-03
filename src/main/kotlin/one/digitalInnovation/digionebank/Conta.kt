@@ -1,4 +1,4 @@
-package one.digitalInnovation.digionebank
+package One.digitalInnovation.digionebank
 import java.math.BigDecimal
 
 class Conta(
@@ -6,11 +6,4 @@ class Conta(
         val numero: String,
         val saldo: BigDecimal
 ) {
-    fun deposito(valor: BigDecimal) {
-
-    }
-
-    fun saque(valor: BigDecimal) {
-        
-    }
 }
