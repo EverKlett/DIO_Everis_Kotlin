@@ -1,4 +1,4 @@
-package One.digitalInnovation.digionebank
+package one.digitalInnovation.digionebank
 import java.math.BigDecimal
 
 class Conta(
