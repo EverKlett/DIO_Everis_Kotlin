@@ -10,6 +10,9 @@ class Pessoa {
     funcionalidade pode ser definido como acima, somente é possível definir uma propriedade de visibilidade diferente da
     variável para o set
     */
+
+    fun pessoaInfo() = "$nome e $cpf"
+
     inner class Endereco {
         var rua: String = "Nome de Rua"
     }
@@ -18,7 +21,6 @@ class Pessoa {
 fun main() {
     val everton = Pessoa()
 
-    println(everton.nome)
-    println(everton.cpf)
+    println(everton.pessoaInfo())
     println(everton.Endereco().rua)
 }
